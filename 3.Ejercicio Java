@@ -1,0 +1,11 @@
+import java.util.Scanner;
+class Main {
+  public static void main(String[]args){
+  Scanner leer= new Scanner(System.in);
+  int numero=0;
+  System.out.println("1.Ingrese un numero entero : ");
+  numero=leer.nextInt();
+  for(int x=0; x<12;x++){
+    System.out.println(x+"*" +numero+" = "+x*numero);
+  }
+}}
